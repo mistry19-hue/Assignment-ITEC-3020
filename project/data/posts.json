@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Adding a Light and Dark Mode Theme Switcher",
+    "date": "2026-07-27",
+    "summary": "I added a light and dark mode option to improve the user experience. This feature also saves the user's theme preference.",
+    "category": "Part 1",
+    "content": "This feature adds a light and dark mode option to my website, allowing users to switch between the two themes. I approached this by first reading through the project requirements to understand what I needed to implement. Then, I reviewed the sample code that was provided and used my class notes and W3Schools to better understand how JavaScript and CSS work together before writing my code. The biggest challenge I encountered was keeping the original light mode design from Phase 1 exactly the same after adding dark mode. Since I had already customized the website to my liking, I had to learn how to use CSS variables so that only the dark mode colours changed when the user switched themes. Overall, I learned how JavaScript and CSS work together to create interactive website features. I also became more comfortable using CSS variables and learned the importance of researching when I got stuck."
+  },
+  {
+    "id": 2,
+    "title": "Creating a Dynamic News Section",
+    "date": "2026-07-24",
+    "summary": "I made the news section load articles from a JSON file instead of HTML. This makes it easier to add new articles.",
+    "category": "Part 3",
+    "content": "This feature creates a dynamic news page where the articles are loaded from a JSON file instead of being manually written in the HTML document. This makes adding new articles much easier. I approached this by making sure the dynamic version matched the design I created in Phase 1 so the website would stay consistent. I researched how to create dynamic content with JavaScript and then learned how JSON stores and organizes article information. One challenge I encountered was understanding how JavaScript could create HTML elements dynamically. I was also confused about how multiple articles could be created from a single JSON file without manually writing each one in HTML. Through research and practice, I learned how JavaScript loops through the JSON data and automatically generates each article. Overall, I learned that JSON makes maintaining and updating website content much easier while keeping the HTML clean and organized."
+  },
+  {
+    "id": 3,
+    "title": "Budget-Friendly Travel: Explore More for Less",
+    "date": "2025-07-20",
+    "summary": "I added icons using Font Awesome to make the website look more attractive and easier to use.",
+    "category": "Icons",
+    "content": "This feature adds icons to the website using Font Awesome to make the pages more visually appealing and easier to navigate. I approached this by visiting the Font Awesome website, finding icons that matched their purpose, and then copying the provided code into my HTML document. After that, I customized their appearance to match the overall design of my website. The biggest challenge I encountered was that I first tried using Bootstrap Icons, but I found them difficult to understand and implement. After doing more research, I discovered Font Awesome through W3Schools, which I found much easier to use. Although adding the icons was simple, I had difficulty changing their size and colour until I experimented with different CSS properties. Overall, I learned how to add icons to a website and how CSS can be used to customize more than just text."
+  },
+  {
+    "id": 4,
+    "title": "Must-Visit Destinations for Adventure Seekers",
+    "date": "2026-06-29",
+    "summary": "I added and positioned images to match the website's design. This helped make the pages look more appealing.",
+    "category": "Pictures",
+    "content": "This feature adds images to my website to make it more visually appealing for users. I approached this by making sure the images enhanced the website without overwhelming the layout. I selected pictures that matched the travel theme and only added images where they improved the overall design. The biggest challenge was positioning the images exactly where I wanted them using CSS. Adding images inside the destination cards was straightforward, but positioning the larger images on the About page required experimenting with width, height, margins, and alignment until I was satisfied with the result. Overall, I learned how to style images using CSS by adjusting borders, border-radius, object-fit, and spacing. I also learned that keeping a design simple often creates a cleaner and more professional website."
+  },
+  {
+    "id": 5,
+    "title": "Building Contact Form Validation",
+    "date": "2026-07-15",
+    "summary": "I added form validation to make sure users enter the correct information before submitting the contact form.",
+    "category": "Part 4",
+    "content": "This feature uses JavaScript to check whether the user's input meets the required conditions before the form can be submitted. It checks that the name field is completed, the email follows the correct format, and the message contains at least 20 characters. I approached this by looking at examples from other websites to better understand how form validation works. I also reviewed the starter code and researched any functions that I did not understand. The biggest challenge was connecting the HTML form fields with the JavaScript file so that the correct error messages appeared. I spent time comparing my code with examples until I understood what I was doing wrong. Overall, I learned how HTML and JavaScript work together using element IDs, allowing JavaScript to access and validate user input."
+  },
+  {
+    "id": 6,
+    "title": "Adding Search and Filtering to Blog Posts",
+    "date": "2026-07-12",
+    "summary": "I added a search feature that lets users quickly find blog posts by title or category, making the website easier to navigate.",
+    "category": "Part 5",
+    "content": "This feature adds a search box that allows users to search for news articles using either the title or the category. Articles that match the search are displayed, while those that do not match are hidden. I approached this by understanding the sample code provided and then researching how JavaScript can be used to search and filter information. The biggest challenge was writing the filter so that it correctly displayed the matching articles as the user typed. It took some experimenting before I got everything working correctly. Overall, I learned how JavaScript can read user input and update a webpage instantly without requiring the page to reload. I also gained a better understanding of conditional statements and DOM manipulation."
+  }
+]

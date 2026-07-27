@@ -1,0 +1,574 @@
+/* Basic Infromation */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { /* The background colour and line spcaing for all the pages. */
+    line-height: 1.6;
+
+}
+
+/* Navigation Bar
+background-color: #fcf4f2;
+
+*/
+
+header { /* At the top of all the pages. */
+    background-color: #d69283;
+}
+
+nav { /* The spacing for the nagivation bar. */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+.logo { /* For the title/ Atlas Travel Co. */
+    font-family: Georgia, serif;
+    font-weight: bold;
+    color: #fcfaf7;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+nav ul { /* The styling for the navigation pages.*/
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a { /* For the navigation pages. */
+    color: #f7e9d7;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover { /* The hover feature for the nagivation pages. */
+    color: #ffc124;
+}
+
+/* Buttons */
+
+button { /* The code for all the buttons on all the pages. */
+    background-color: #ffc124;
+    color: #1a385a;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Monaco, Monospace;
+    margin:15px;
+}
+
+button:hover { /* The hover feature of the buttons. */
+    background-color: #f58b05;
+}
+
+/* Home Page - Index */
+
+.hero { /* The code the intorduction/ welcome message. */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 100px;
+    gap: 50px;
+    background-color: #c4e9f2;
+    border: 40px solid #7fbbdd;
+}
+
+#hero_pic { /* The measurements for the image of the lake (home page) and the people (about page). */
+    width: 50%;
+    height: auto;
+    border-radius: 25px;
+}
+
+#hero_pic_1 { /* The measurements for the image of the building (about page). */
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero_1 { /* For the why choose section (home page). */
+    background-color: #fcf4f2;
+    font-size: 20px;
+    font-family: Verdana, Sans-serif;
+    color:#4e5c5b;
+    padding: 70px 100px;
+}
+
+.hero_1 li { /* For the lists (about page). */
+    font-size: 20px;
+    font-family: Verdana, Sans-serif;
+    color:#4e5c5b;
+}
+
+.hero_2 { /* The code for all the page titles. */
+    align-items: center;
+    padding: 40px 100px;
+    gap: 50px;
+    background-color: #c4e9f2;
+    border: 20px solid #7fbbdd;
+    border-radius: 20px;
+    margin: 10px;
+    font-family: Lucida Console, Monospace;
+    text-align: center;
+}
+
+.hero h1 { /* The font for the Explore Beyond the horizon. */
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-family: Lucida Console, Monospace;
+    font-size:60px;
+    text-align: center;
+}
+
+.hero p { /* The code for the discover... */
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: Papyrus, Fantasy;
+    font-size:22px;"
+}
+
+/* Cards */
+
+.card-container { /* Where the cards are located. */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.card { /* The settings for the cards. */
+    background-color: #c2edeb;
+    border: 2px solid #a0d2cf;
+    width: 30%;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Lucida Console, Monospace;
+    font-size:18px;
+}
+
+.card h3 { /* The space at the top and bottom of the cards. */
+    margin-bottom:5px;
+    margin-top:15px;
+}
+
+.card:hover { /* Moving the cards when you hover over it. */
+    transform: translateY(-5px);
+}
+
+/* About Page */
+
+.goal-container { /* Element infromation */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.goal { /* For the goal cards in About page. */
+    background-color: #edf9fc;
+    border: 4px solid #788082;
+    width: 30%;
+    padding: 30px;
+    border-radius: 13px;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-family: Papyrus, Fantasy;
+    font-size:13px;
+}
+
+.about-container { /* Element infromation */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.about_1 { /* For the people cards in the About page. */
+    background-color: #c2edeb;
+    border: 2px solid #a0d2cf;
+    width: 30%;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Papyrus, Fantasy;
+    font-size:13px;
+}
+
+/* Services Page */
+
+.goal_1 { /* For the goal cards in Service page. */
+    background-color: #edf9fc;
+    border: 4px solid #788082;
+    width: 70%;
+    padding: 30px;
+    border-radius: 13px;
+    text-align: center;
+    font-size:20px;
+    margin-top: 10px;
+}
+
+section { /* This is for the section. */
+    padding: 50px 80px;
+}
+
+/* Destinations Gallery */
+
+.gallery { /* The content inforamtion/ layout. */
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.destination { /* The design infromation for the things. */
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+.destination img { /* The image inforamtion. */
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* News / Blog Page */
+
+.blog { /* Element infromation */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: Verdana, sans-serif;
+    flex-wrap: nowrap;
+}
+
+article { /* For the news article cards/ box in the News page. */
+    background-color: white;
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #aba19d;
+    color:#56706f;
+    font-family: Verdana, sans-serif;
+    font-size:18px;
+    margin:20px;
+}
+
+article h2 { /* For the article headers/ titles. */
+    margin-bottom: 15px;
+    color: #4a8f8b;
+    font-family: Garamond, Serif;
+    font-size: 40px;
+}
+
+.post-info {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-family: Verdana, sans-serif;
+}
+
+.latest-badge {
+    background-color: #ffc124;
+    color: #1a385a;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.full-content {
+
+    margin-top: 15px;
+}
+
+.read-more {
+    margin-top: 20px;
+    padding: 10px 18px;
+    background-color: #ffc124;
+    color: #1a385a;
+    border: none;
+    border-radius: 8px;
+}
+
+.read-more:hover {
+    background-color: #f58b05;
+}
+
+/* Contact Page */
+
+.contact { /* For the contact box in the Contact page. */
+    border-radius: 30px;
+    display: block;
+    background-color: #edf9fc;
+    padding: 40px 100px;
+    gap: 50px;
+    border: 2px solid #c7d3d4;
+    margin: 10px;
+    font-family: Lucida Console, Monospace;
+    font-size: 20px;
+}
+
+.contact-container { /* Element information */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-container form { /* For the input information part/ area. */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-family: Lucida Console, Monospace;
+}
+
+#name, #email, #subject {
+    font-family: Lucida Console, Monospace;
+}
+
+.contact-image { /* Image Settings */
+    flex: 1;
+    width: 100%;
+    max-width: 390px;
+    height: auto;
+    border-radius: 8px;
+}
+
+form { /* The element imformation of the form in contact page. */
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label { /* The is the name for each of the inputs. */
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: Monaco, Monospace;
+}
+
+input, textarea { /* This the input text done by users. */
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid #7fbbdd;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 600px;
+}
+
+textarea { /* The is the size of the message section. */
+    height: 150px;
+    resize: none;
+}
+
+form button { /* The send message button. */
+    margin-top: 20px;
+}
+
+section a { /* The social media names in the follow us part. */
+    color: #3c767a;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+section a:hover { /* The social media hover. */
+    color: #f58b05;
+}
+
+.follow{ /* This is the follow us section. */
+    text-align: center;
+    margin-bottom:40px;
+    font-family: Verdana, Sans-serif;
+}
+
+.follow h4 { /* This is the follow us section but with a focus on the Header 4. */
+    font-family: Garamond, Serif;
+    font-size: 30px;
+}
+
+.error-message {
+    color: #bd2d45;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#success-message {
+    color: #3b9e1c;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Blog Filter */
+
+#filter-input {
+    width: 300px;
+    padding: 12px;
+    margin: 20px 0;
+    border: 2px solid #aba19d;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    background-color: #ebdde1;
+    color:#0a0003;
+}
+
+#no-results {
+    display: none;
+    color: #e46f44;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: Georgia, serif;
+}
+
+/* Footer */
+
+footer { /* The footer design infromation. */
+    background-color: #d69283;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+    font-family: Georgia, serif;
+}
+
+footer p { /* The colour of the font in the footer. */
+    color: white;
+}
+
+/* Other Information */
+
+@media screen and (max-width: 900px) { /* The screen size information. */
+
+nav { /* This is for the navigation. */
+    flex-direction: column;
+}
+
+nav ul { /* This is for the links. */
+    margin-top: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero { /* This is for the layout. */
+    flex-direction: column;
+    padding: 40px;
+}
+
+.hero div { /* This is for the division of each of the section in the website. */
+    width: 100%;
+}
+
+.card-container, .gallery, .blog { /* This is for the layout. */
+    flex-direction: column;
+}
+
+.card, .destination, article { /* This is for the layout. */
+    width: 100%;
+}
+
+form { /* This is for the layout. */
+    width: 90%;
+}
+
+}
+
+/* PHASE 2 */
+
+:root { /* Infromation for Light Mode. */
+    --body-bg: #fcf4f2;
+    --text-color: #1a385a;
+    --header-bg: #d69283;
+    --header-text: #f7e9d7;
+    --hero-bg: #c4e9f2;
+    --hero-border: #7fbbdd;
+    --card-bg: #c2edeb;
+    --white-card: white;
+    --contact-bg: #edf9fc;
+    --input-bg: white;
+    --input-text: #1a385a;
+}
+
+[data-theme="dark"] { /* Information for Dark Mode. */
+    --body-bg: #1a1a1a;
+    --text-color: #f7e9d7;
+    --header-bg: #111111;
+    --header-text: white;
+    --hero-bg: #243b4a;
+    --hero-border: #314f61;
+    --card-bg: #2b2b2b;
+    --white-card: #242424;
+    --contact-bg: #222222;
+    --input-bg: #333333;
+    --input-text: white;
+}
+
+body { /* This applies the theme to all the pages in the website. */
+    background-color: var(--body-bg);
+    color: var(--text-color);
+}
+
+/* This applies the background color to the navigation bar and the text inside it. */
+header, footer {
+    background-color: var(--header-bg);
+}
+
+.logo, nav a, footer p {
+    color: var(--header-text);
+}
+
+/* This changes the settings of the elenents to fit dark mode. */
+.hero {
+    background-color: var(--hero-bg);
+    border-color: var(--hero-border);
+}
+
+.hero_1 {
+    background-color: var(--body-bg);
+    color: var(--text-color);
+}
+
+.hero_2 {
+    background-color: var(--hero-bg);
+    border-color: var(--hero-border);
+}
+
+/* This changes the elements for the cards/ boxes to fit with dark mode. */
+.card {
+    background-color: var(--card-bg);
+}
+
+.goal, .destination, article, .about_1 {
+    background-color: var(--white-card);
+    color: var(--text-color);
+}
+
+/* This changes the contact background to fit dark mode. */
+.contact {
+    background-color: var(--contact-bg);
+}
+
+/* This chnages the text intputs. */
+input, textarea, #filter-input {
+    background-color: var(--input-bg);
+    color: var(--input-text);
+}
