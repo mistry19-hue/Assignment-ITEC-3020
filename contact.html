@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Atlas Travel Co.</title>
+    <script src="https://kit.fontawesome.com/35b2b6b272.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/componenets.js"></script>
+    <script src="js/validate.js"></script>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+<main>
+    <h2 class="hero_2" style="font-family: Lucida Console, Monospace; font-size:60px; text-align: center;">Contact Us</h2>
+    <section class="contact">
+        <h4> Contact Us!</h4>
+        <p style="font-family: Monaco, Monospace; font-size:19px;">We'd love to hear from you! Whether you're planning your next vacation, have questions about our travel
+            packages, or need assistance with an existing booking, the team at Atlas Travel Co. is here to help.
+            Contact us by phone, email, or by filling out the contact form below, and we'll get back to you as soon
+            as possible. </p>
+    </section>
+        <section class="contact">
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <i class="fa-brands fa-square-linkedin" style="font-size:30px;color:#e46f44;"></i>
+                <a href="#">LinkedIn</a>
+                <i class="fa-brands fa-square-instagram" style="font-size:30px;color:#e46f44;"></i>
+                <a href="#">Instagram</a>
+                <i class="fa-brands fa-square-facebook" style="font-size:30px;color:#e46f44;"></i>
+                <a href="#">Facebook</a>
+                <i class="fa-brands fa-square-twitter" style="font-size:30px;color:#e46f44;"></i>
+                <a href="#">Twitter</a>
+            </div>
+        <div class="contact-container">
+
+        <form id="contact-form">
+            <label>Name:</label>
+            <input type="text" id="name" name="name">
+            <span class="error-message"></span>
+
+
+            <label>Email:</label>
+            <input type="text" id="email" name="email">
+            <span class="error-message"></span>
+
+            <label>Subject:</label>
+            <input type="text" id="subject" name="subject">
+
+            <label>Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <span class="error-message"></span>
+
+            <button type="submit">
+                Send Message
+            </button>
+        </form>
+            <img src="contact.jpg" alt="Contact Us" class="contact-image">
+
+        </div>
+            <p id="success-message"></p>
+    </section>
+</main>
+    <div id="footer-placeholder"></div>
+</body>
+</html>
